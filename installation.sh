@@ -14,3 +14,6 @@ sudo apt-get install openssh-client
 #install Apache web servwe 
 sudo apt update
 sudo apt install apache2
+
+#install MySQL database management system
+sudo apt install mysql-server
