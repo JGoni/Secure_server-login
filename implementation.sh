@@ -8,3 +8,7 @@ sudo ufw allow ssh
 sudo ufw allow https
 sudo ufw allow www
 sudo ufw allow ftp
+sudo service ssh start
+
+#starting ssh server on system boot
+sudo systemctl enable ssh.service
