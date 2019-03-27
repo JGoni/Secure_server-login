@@ -12,3 +12,8 @@ sudo service ssh start
 
 #starting ssh server on system boot
 sudo systemctl enable ssh.service
+
+#Allow incoming HTTP and HTTPS traffic for this profile
+sudo ufw allow in "Apache Full"
+
+sudo apt install curl
