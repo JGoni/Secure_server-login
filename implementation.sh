@@ -17,3 +17,6 @@ sudo systemctl enable ssh.service
 sudo ufw allow in "Apache Full"
 
 sudo apt install curl
+
+#installed security script by MySQL, remove dangerous defaults and lockdown of database
+sudo mysql_secure_installation
