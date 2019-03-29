@@ -22,3 +22,7 @@ sudo apt install mysql-server
 sudo apt install php libapache2-mod-php php-mysql
 #install php-cli for commnadline interpretation for PHP scripting language
 sudo apt install php-cli
+sudo apt install php-curl php-json php-cgi
+sudo apt install net-tools
+#install phpmyadmin
+sudo apt-get install phpmyadmin
